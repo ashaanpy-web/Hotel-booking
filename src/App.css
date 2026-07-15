@@ -1,0 +1,38 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: hsl(41, 100%, 93%);
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+
+.font-dmmono {
+  font-family: "DM Mono", monospace;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+}
